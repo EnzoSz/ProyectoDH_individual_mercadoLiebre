@@ -1,0 +1,95 @@
+:root {
+    --yellow: #eac926;
+    --blue: #03264c;
+    --sky-blue: #1259c3;
+    --dark-grey: #666;
+    --ligth-grey: #ebebeb;
+    --green: #39b54a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+/* Header */
+header {
+    background-color: var(--yellow);
+    padding-bottom: 1rem;
+  
+}
+.ofertas-container {
+    display: flex;
+}
+
+.ofertas-container p {
+    font-size: 1.2rem;
+}
+
+nav .navbar-left , .navbar-right {
+    font-size: 1.2rem;
+}
+nav .navbar-left .list li a  {
+    text-decoration: none;
+    color: black;
+}
+nav .navbar-right .list li a  {
+    text-decoration: none;
+    color: black;
+}
+.burger-menu {
+    display: flex;
+    
+   
+}
+.burger-menu i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--sky-blue);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.3rem;
+}
+
+/* Main */
+main {
+    margin-bottom: 2rem;
+}
+.container-cards h3 {
+    font-size: 2.4rem;
+}
+
+.product-card .price {
+    font-size: 1.8rem;
+}
+
+.product-card .descuento, .name {
+    font-size: 1.6rem;
+}
+/* footer */
+
+.info-footer {
+    display: block;
+    margin-bottom: 2rem;
+
+}
+.info-footer h5 {
+    font-size: 1.6rem ;
+    color: var(--dark-grey);
+}
+.info-footer p {
+    font-size: 1.2rem;
+    color: var(--dark-grey);
+
+}
+
+.info-footer i {
+    font-size: 2em;
+    margin-bottom: 1rem; ;
+}
