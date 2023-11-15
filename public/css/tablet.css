@@ -1,7 +1,26 @@
+/* Header */
 .burger-menu {
-    display: none;
+  display: none;
+}
+.main-header-top-bar {
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 .main-header-botton-bar {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Main */
+
+.product-card {
+  box-shadow: 0 0 10px rgb(100, 100, 100);
+}
+
+/* Footer */
+.info-footer {
+    width: 50%;
+  }
