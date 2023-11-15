@@ -18,23 +18,51 @@ html {
   font-family: "Roboto", sans-serif;
 }
 /* Header */
-header {
+.main-header {
+  display: flex;
+  flex-direction: column;
   width: 100vw;
   background-color: var(--yellow);
-  padding-bottom: 1rem;
-}
-.logo-container {
-  width: 200px;
-  margin: 0;
-}
-.logo-container img {
-  width: 70%;
-  margin: auto;
   padding: 1rem;
 }
-.search-container {
+
+.main-header-top-bar{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  min-width: 320px;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 120px;
+}
+
+
+.container-search {
+  display: flex;
+  height: 2.5rem;
+  background-color: #fff;
+  flex-grow: 0.2;
+  justify-content: center;
+  text-align: center;
+}
+.container-search input {
   width: 100%;
-  margin: auto;
+  height: 100%;
+  color: var(--dark-grey);
+  border: none;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.container-search .fa-magnifying-glass {
+  margin: 0;
+  color: var(--dark-grey);
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+.burger-menu {
+  margin-right: 2rem;
   text-align: center;
 }
 .ofertas-container {
@@ -60,10 +88,6 @@ nav .navbar-left .list li a {
 nav .navbar-right .list li a {
   text-decoration: none;
   color: black;
-}
-.burger-menu {
-  margin: auto;
-  text-align: center;
 }
 .burger-menu .fa-bars {
   font-size: 2.3rem;
