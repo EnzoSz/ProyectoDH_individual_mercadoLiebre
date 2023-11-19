@@ -7,6 +7,13 @@ app.listen(3017, () =>
   console.log("Servidor corriendo en http://localhost:3017")
 ); // Levantamos el servidor en el puerto 3017
 
+// Definimos la ruta raíz
 app.get("/", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/index.html"));
+});
+
+// Definimos la ruta /register
+
+app.get("/register", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/register.html"));
 });

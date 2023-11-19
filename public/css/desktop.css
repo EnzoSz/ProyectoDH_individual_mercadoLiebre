@@ -1,4 +1,9 @@
 /* Header */
 .main-header-botton-bar {
-    justify-content: space-evenly;
-  }
+  justify-content: space-evenly;
+}
+
+/* Main */
+.product-card {
+  max-width: 20rem;
+}
