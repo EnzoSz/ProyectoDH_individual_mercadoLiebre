@@ -7,10 +7,18 @@
     --green: #39b54a;
   }
 /* main */
+.main-register {
+  width: 100%;
+  max-width: 1024px;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
 .register-form {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
+  max-width: 500px;
   margin: auto;
   font-size: 1.2rem;
 }
@@ -85,19 +93,27 @@ legend {
 .container-input label {
   color: var(--dark-grey);
 }
+.container-buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 1rem;
+}
 .button-form {
   width: 100%;
   padding: 1rem;
+  font-size: inherit;
+  font-family: inherit;
   margin: 1rem;
   background-color: var(--sky-blue);
   color: white;
   border-radius: 0.5rem;
+  text-align: center;
+  text-decoration: none;
+  line-height: 1rem;
+  cursor: pointer;
 }
 .button-form:hover {
   background-color: var(--yellow);
   color: var(--blue);
-}
-.button-form a {
-  color: white;
-  text-decoration: none;
 }

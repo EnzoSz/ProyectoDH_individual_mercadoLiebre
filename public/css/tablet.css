@@ -23,4 +23,5 @@
 /* Footer */
 .info-footer {
     width: 50%;
+    max-width: 300px;
   }
