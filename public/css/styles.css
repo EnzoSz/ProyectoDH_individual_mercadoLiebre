@@ -201,7 +201,7 @@ main {
   justify-content: space-around;
 }
 .info-footer {
-  margin: auto;
+  margin: 0 auto;
   width: 80%;
   padding: 2rem;
   text-align: center;
