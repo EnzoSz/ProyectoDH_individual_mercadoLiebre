@@ -17,3 +17,8 @@ app.get("/", (req, res) => {
 app.get("/register", (req, res) => {
   res.sendFile(path.join(__dirname, "./views/register.html"));
 });
+
+// Definimos la ruta /login
+app.get("/login", (req, res) => {
+  res.sendFile(path.join(__dirname, "./views/login.html"));
+});
