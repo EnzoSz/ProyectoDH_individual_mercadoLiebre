@@ -107,6 +107,7 @@ legend {
   margin: 1rem;
   background-color: var(--sky-blue);
   color: white;
+  border: none;
   border-radius: 0.5rem;
   text-align: center;
   text-decoration: none;
