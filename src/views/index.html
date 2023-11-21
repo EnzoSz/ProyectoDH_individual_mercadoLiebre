@@ -16,22 +16,27 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="/css/styles.css" />
-    <link rel="stylesheet" href="/css/tablet.css" media="(min-width: 430px)" />
+    <link rel="stylesheet" href="/css/tablet.css" media="(min-width: 480px)" />
     <link rel="stylesheet" href="/css/desktop.css" media="(min-width: 770px)" />
   </head>
   <body>
     <!-- Header -->
     <header class="main-header">
       <section class="main-header-top-bar">
-        <img
-          src="/images/logo-mercado-liebre.svg"
-          class="logo"
-          alt="logo-mercado-liebre"
-        />
-        <div class="container-search">
+        <a href="/" class="logo">
+          <img
+            src="/images/logo-mercado-liebre.svg"
+            alt="logo-mercado-liebre"
+          />
+        </a>
+        <form class="container-search">
           <i class="fa-solid fa-magnifying-glass"></i>
-          <input type="text" class="input" value="Buscar productos, marcas" />
-        </div>
+          <input
+            type="text"
+            class="input"
+            placeholder="Buscar productos, marcas"
+          />
+        </form>
         <div class="burger-menu">
           <i class="fas fa-bars"></i>
         </div>
@@ -55,9 +60,7 @@
           </li>
           <li>
             <a href="/login">Ingresá</a>
-            <i
-              class="fa-solid fa-arrow-right-to-bracket"
-            ></i>
+            <i class="fa-solid fa-arrow-right-to-bracket"></i>
           </li>
           <li>
             <a href="#">Mis compras</a>
@@ -217,8 +220,8 @@
           <i class="fa-solid fa-user-shield"></i>
           <h5>Seguridad, de principio a fin</h5>
           <p>
-            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas
-            hacer, porque estás siempre protegid@.
+            ¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no
+            puedas hacer, porque estás siempre protegid@.
           </p>
         </article>
       </section>
