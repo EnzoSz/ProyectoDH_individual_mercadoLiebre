@@ -5,5 +5,13 @@
 
 /* Main */
 .product-card {
-  max-width: 20rem;
+  max-width: 21rem;
+}
+
+.container-info-card .name {
+  opacity: 0;
+  transition: opacity  0.5s ease;
+}
+.product-card:hover .name {
+  opacity: 1; 
 }

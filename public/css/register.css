@@ -13,6 +13,13 @@
   justify-content: center;
   align-items: center;
   padding: 1rem;
+  height: auto;
+}
+.title-register {
+  font-size: 2rem;
+  color: var(--dark-grey);
+  padding: 1rem;
+  text-align: center;
 }
 .register-form {
   display: flex;
@@ -113,8 +120,10 @@ legend {
   text-decoration: none;
   line-height: 1rem;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 .button-form:hover {
   background-color: var(--yellow);
   color: var(--blue);
+
 }
