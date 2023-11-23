@@ -149,6 +149,7 @@ main {
   background-color: white;
   margin: 1rem;
   text-align: center;
+  transition: all 0.5s;
 }
 .container-info-card {
   margin: auto;
@@ -235,6 +236,8 @@ main {
   color: var(--sky-blue);
   font-size: 3rem;
   margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.5s;
 }
 .info-footer h5 {
   font-size: 1.6rem;
