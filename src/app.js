@@ -3,9 +3,11 @@ const path = require("path"); // Importamos path
 const app = express(); // Creamos una instancia de express
 const publicPath = path.resolve(__dirname, "../public"); // Obtenemos la ruta absoluta de la carpeta public
 app.use(express.static(publicPath)); // Le decimos a express que use la carpeta public para servir archivos estáticos
-app.listen(3017, () =>
-  console.log("Servidor corriendo en http://localhost:3017")
-); // Levantamos el servidor en el puerto 3017
+ // Levantamos el servidor en el puerto 3017
+const port = process.env.PORT || 3017;
+app.listen(port, () =>
+  console.log(`Servidor corriendo en el puerto http://localhost:${port}` )
+);
 
 // Definimos la ruta raíz
 app.get("/", (req, res) => {
