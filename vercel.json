@@ -2,9 +2,6 @@
     "version": 2,
     "name": "MercadoLiebre",
     "builds": [
-      { "src": "app.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-      { "src": "/(.*)", "dest": "/" }
+      { "src": "src/app.js", "use": "@vercel/node" }
     ]
   }
