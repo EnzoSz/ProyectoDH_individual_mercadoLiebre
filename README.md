@@ -22,6 +22,11 @@ Este es un proyecto individual para Digital House. El objetivo es crear una vers
 4. Ejecuta `npm start` para iniciar el servidor.
 5. Abre tu navegador y ve a `http://localhost:3017`.
 
+## Despliegue en vivo
+
+El proyecto está desplegado y se puede acceder en vivo gracias a Render. Para ver el proyecto en acción, haz clic en el siguiente enlace:
+
+[Ver Proyecto en Render](https://ml-enzo-soliz.onrender.com/)
 
 ## Contribuciones
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para sugerencias o cambios.
