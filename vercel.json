@@ -1,7 +1,0 @@
-{
-    "version": 2,
-    "name": "MercadoLiebre",
-    "builds": [
-      { "src": "src/app.js", "use": "@vercel/node" }
-    ]
-  }
