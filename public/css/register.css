@@ -69,7 +69,7 @@ legend {
 .personal-container-input input {
   width: 100%;
   padding: 1rem;
-  border: solid 1px var(--dark-grey);
+  border: none;
   border-radius: 5px;
 }
 .personal-container-input input:focus {
